@@ -36,4 +36,4 @@ E2E_BASE_URL=https://guestbook-202204243.vercel.app npm run test:e2e
 
 Neon main에 운영 스키마를 적용하고 Vercel에는 pooled DB 연결을 비밀 환경변수로 등록했습니다. 마이그레이션용 direct 연결, OAuth 토큰, `.env.local`, `.neon`, `.vercel`은 공개 저장소에서 제외됩니다.
 
-Vercel GitHub 자동 연결은 실패하여 CLI로 직접 배포했습니다. 공개 접속·CRUD에는 영향이 없지만 후속 push의 자동 배포는 설정되지 않았습니다.
+최초 배포는 CLI로 수행했습니다. 이후 사용자가 Vercel GitHub 앱 설치를 완료하여 `dlrlwjd1/guestbook-202204243` 연결과 production branch `main` 설정을 API로 확인했습니다.

@@ -70,4 +70,4 @@ Vercel 프로젝트의 production 환경변수로 `DATABASE_URL`, `NEXT_PUBLIC_D
 
 비밀번호·토큰이 있는 `.env.local`, 로컬 데이터, Neon 연결 파일, Vercel 로컬 설정은 Git에서 제외합니다. 별도 운영자 계정/비밀번호는 없으며 각 글의 비밀번호로 해당 글만 관리합니다.
 
-현재 배포는 Vercel CLI로 완료했습니다. GitHub 자동 배포 연결은 계정 연동 문제로 설정되지 않았으므로 후속 변경 배포는 `vercel --prod`로 실행하세요.
+Vercel 프로젝트에 GitHub 저장소가 연결되어 있습니다. `main` 브랜치에 push하면 프로덕션 자동 배포가 실행됩니다.
