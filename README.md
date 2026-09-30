@@ -2,6 +2,10 @@
 
 **개발자: 이기정 · 학번: 202204243**
 
+- 공개 저장소: https://github.com/dlrlwjd1/guestbook-202204243
+- 배포: https://guestbook-202204243.vercel.app
+- [제출 정보](SUBMISSION.md) · [검증 기록](docs/verification.md) · [코드 검토](docs/code-review.md)
+
 로그인 없이 이름, 메시지, 글 비밀번호를 입력해 인사를 남기는 방명록입니다. 글을 수정·삭제할 때 작성 시 정한 비밀번호를 서버에서 검증합니다.
 
 ## 과제 요구사항
@@ -65,3 +69,5 @@ Matt Pocock의 `grill-with-docs → to-spec → to-tickets → implement → cod
 Vercel 프로젝트의 production 환경변수로 `DATABASE_URL`, `NEXT_PUBLIC_DEVELOPER_NAME`, `NEXT_PUBLIC_STUDENT_ID`를 등록합니다. 마이그레이션은 직접 연결로 실행한 후 배포합니다. `DATABASE_URL_UNPOOLED`는 마이그레이션용이며 브라우저로 전달하지 않습니다.
 
 비밀번호·토큰이 있는 `.env.local`, 로컬 데이터, Neon 연결 파일, Vercel 로컬 설정은 Git에서 제외합니다. 별도 운영자 계정/비밀번호는 없으며 각 글의 비밀번호로 해당 글만 관리합니다.
+
+현재 배포는 Vercel CLI로 완료했습니다. GitHub 자동 배포 연결은 계정 연동 문제로 설정되지 않았으므로 후속 변경 배포는 `vercel --prod`로 실행하세요.

@@ -4,9 +4,9 @@
 
 **Blocked by:** 01, 02, 03
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] UI 개발자 이름·학번
-- [ ] 세 프로젝트 guestbook-학번 이름 통일
-- [ ] public GitHub push
-- [ ] Vercel CRUD 검증 후 두 URL 제출
+- [x] UI 개발자 이름·학번
+- [x] 세 프로젝트 guestbook-학번 이름 통일
+- [x] public GitHub push
+- [x] Vercel CRUD 검증 후 두 URL 제출
