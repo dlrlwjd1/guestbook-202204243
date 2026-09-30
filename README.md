@@ -62,7 +62,7 @@ npm run test:e2e   # 별도 로컬 DB, PC·모바일 CRUD와 비밀번호 거부
 - [Matt Pocock 스킬 출처](docs/skills-provenance.md)
 - [Neon 설치·설정 변경 내역](docs/neon-setup.md)
 
-Matt Pocock의 `grill-with-docs → to-spec → to-tickets → implement → code-review` 흐름을 적용했습니다. 인터뷰는 과제 요구사항과 사용자 답변을 바탕으로 진행하고, 로컬 Markdown 티켓을 사용했습니다. `.claude/skills`에 공식 원본을 보존했습니다.
+Matt Pocock의 `grill-with-docs → to-spec → to-tickets → implement → code-review` 스킬을 사용합니다. 최초 구현에서는 정식 grilling 인터뷰를 생략했습니다. 이후 Codex에서 인터뷰를 진행해 사용자 답변을 기록했으며, 보완 명세·티켓은 사용자 요청으로 개발을 제외하여 보류했습니다. 이를 전체 절차의 소급 완료로 표현하지 않습니다. [실제 진행 기록](.scratch/guestbook-codex/interview.md)을 참고하세요. 공식 스킬은 Codex용 `.agents/skills`와 기존 `.claude/skills`에 보존했습니다.
 
 ## 배포
 
