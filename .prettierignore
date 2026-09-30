@@ -1,0 +1,8 @@
+node_modules
+.next
+.local-data
+.claude
+.agents
+.vercel
+package-lock.json
+test-results

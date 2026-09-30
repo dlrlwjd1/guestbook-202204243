@@ -1,0 +1,9 @@
+.env*
+.local-data
+.agents
+.claude
+.codex
+.scratch
+test-results
+playwright-report
+docs

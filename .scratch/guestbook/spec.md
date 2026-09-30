@@ -23,4 +23,4 @@ Next.js App Router, TypeScript, Neon Postgres, Vercel. 작성자 이름 1~30자,
 ## Out of Scope
 로그인·회원가입·운영자·파일 첨부·비밀번호 찾기·이름 수정·댓글.
 ## Further Notes
-앞서 진행하던 투표 앱을 대체하는 별도 과제. 사용자 지시로 Codex 진행, Matt Pocock 스킬 적용. 이름과 학번은 사용자 답변 대기. GitHub 저장소는 반드시 public. URL을 실제 검증하기 전 완료로 보고하지 않는다.
+앞서 진행하던 투표 앱을 대체하는 별도 과제. 사용자 지시로 Codex 진행, Matt Pocock 스킬 적용. 개발자 이기정, 학번 202204243. GitHub 저장소는 반드시 public. URL을 실제 검증하기 전 완료로 보고하지 않는다.
